@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white;
+     color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.heading
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+body{
+    /*background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("unnamed (3).jpg");
+            background-repeat: repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;*/
+
+/*background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);*/
+
+background: linear-gradient(to bottom, #ff66ff 0%, #ff6600 100%);
+
+}
+.button
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 518px;
+    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
+    background: #031321;
+    font-family: consolas;
+    align-items: center;
+
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+/*a:hover{
+    color: white;
+    background: tomato;
+    
+}#33ccff*/
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+}
+.search{
+    background-color: pink;
+    padding : 5px;
+    font-size: 10px;
+    width: 62%;
+    border-radius: 5px;
+}
+.submit{
+    padding: 5px;
+    font-size: 10px;
+    background-color: pink;
+    color: black;
+    width: 25%;
+    border-radius: 5px;
+
+}
+footer{
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    font-family: arial;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    color: white;
+
+
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    background:  transparent;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.gallery{
+    /*margin: 5px;*/
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    /*border:1px solid #d9b3ff;*/
+    float: left;
+    width: 390px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.gallery2{
+     margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    /*border:1px solid #d9b3ff;*/
+    float: left;
+    width: 390px;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+.gallery2 img{
+    width: 390px;
+    height: 290px;
+
+}
+.moviename1 a{
+    background-color: white;
+}
+.moviename1 a:hover{
+    color: white;
+    background: tomato;
+    box-shadow: 2px 2px 4px 0px black;
+}
+.moviename1{
+    padding: 15px;
+    text-align: center;
+}
+.gallery img{
+    width: 390px;
+    height: 290px;
+
+}
+.moviename{
+    padding: 15px;
+    text-align: center;
+}
+.moviename a{
+    background-color: white;
+}
+.moviename a:hover{
+    color: white;
+    background: #5be022;
+    box-shadow: 2px 2px 4px 0px black;
+}
+.gallery2 h2{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+.moviename2 a:hover{
+    color: white;
+    background: #1e30a6;
+    box-shadow: 2px 2px 4px 0px black;
+}
+.moviename2 a{
+    background-color: white;
+}
+.moviename2{
+    padding: 15px;
+    text-align: center;
+}
+.moviename3 a:hover{
+    color: white;
+    background: black;
+    box-shadow: 2px 2px 4px 0px black;
+}
+.moviename3 a{
+    background-color: white;
+}
+.moviename3{
+    padding: 15px;
+    text-align: center;
+}

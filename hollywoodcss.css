@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white;
+     color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.heading
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ws_Funny_Graffiti_Black_&_White_1920x1200.jpg");
+            background-repeat: repeat;
+
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+
+/*background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);*/
+
+}
+.button
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 518px;
+    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
+    background: #031321;
+    font-family: consolas;
+    align-items: center;
+
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+/*a:hover{
+    color: white;
+    background: tomato;
+    
+}#33ccff*/
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+}
+.search{
+    background-color: pink;
+    padding : 5px;
+    font-size: 10px;
+    width: 62%;
+    border-radius: 5px;
+}
+.submit{
+    padding: 5px;
+    font-size: 10px;
+    background-color: pink;
+    color: black;
+    width: 25%;
+    border-radius: 5px;
+
+}
+footer{
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #33ccff;
+    font-family: arial;
+    letter-spacing: 1px;
+    margin-top: 50px;
+
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    background:  white;
+    overflow: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+.gallery{
+    /*margin: 5px;*/
+    margin-right: 12px;
+    margin-left: 17px;
+    margin-top: 30px;
+    border:5px solid black;/*#d9b3ff*/
+    float: left;
+    width: 390px;
+    padding-bottom: 0px;
+
+}
+.gallery img{
+    width: 390px;
+    height: 290px;
+
+}
+.moviename h2{
+    text-align: center;
+    size: 30px;
+}
+
+.moviename audio{
+    margin-left: 45px;
+
+}
+
+.movietitle h2{
+    size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: arial;
+    margin-top: 15px;
+}
+.moviename2 h2{
+    text-align: center;
+    size: 20px;
+    color: #47443a;
+    font-family: Calibri (Body);
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.moviename2 audio{
+    margin-left: 45px;
+}
+
+/*<h1>Justin Bieber's Album</h1>
+    <center><img src="Justin Bieber 2.jpg" width="400px" height="300px"></center>
+
+    <div class="Music">
+        <h2>1.Yummy</h2>
+        <audio src="JustinBieberYummy.mp3" controls loop></audio>
+        <h2>2.Let Me Love You</h2>
+        <audio src="DJ Snake - Let Me Love You ft. Justin Bieber (1).mp3" controls></audio>
+        <h2>3.Sorry</h2>
+        <audio src="Justin Bieber - Sorry (Dance Video).mp3" controls></audio>
+        <h2>4.Never Let You Go</h2>
+        <audio src="Never_Let_You_Go_87.mp3" controls></audio>
+        <h2>5.Baby</h2>
+        <audio src="Baby_feat_Ludacris_28.mp3" controls></audio>
+        <h2>6.Up</h2>
+        <audio src="Up_12.mp3" controls></audio>
+        <h2>7.That Should Be Me</h2>
+        <audio src="That_Should_Be_Me_49.mp3" controls></audio>
+        <h2>8.Eenie Meenie</h2>
+        <audio src="Eenie_Meenie_feat_Se_34.mp3" controls></audio>
+        <h2>9.U Smile</h2>
+        <audio class="last-song" src="U_Smile_30.mp3" controls></audio>
+    </div>

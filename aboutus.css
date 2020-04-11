@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white;
+     color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+body{
+background: #34495E;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+}
+.search{
+    background-color: pink;
+    padding : 5px;
+    font-size: 10px;
+    width: 62%;
+    border-radius: 5px;
+}
+.submit{
+    padding: 5px;
+    font-size: 10px;
+    background-color: pink;
+    color: black;
+    width: 25%;
+    border-radius: 5px;
+}
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #34495E;
+    padding: 60px;
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width:160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img{
+    width:100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: 0.1s all;
+} 
+.ps a:hover >img{
+    filter: none;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+}
